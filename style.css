@@ -1,0 +1,42 @@
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.start {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  background: #3b7284;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.score {
+  font-size: 20px;
+  font-weight: 800;
+}
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  border-radius: 50%;
+  background-color: rgb(59, 157, 181);
+}
+
+.apple {
+  border-radius: 50%;
+  background-color: rgb(196, 0, 0);
+}
